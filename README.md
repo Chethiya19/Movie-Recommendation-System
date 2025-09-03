@@ -21,7 +21,7 @@ A **Python Flask web application** that recommends movies based on content simil
 ```bash
 git clone https://github.com/your-username/movie-recommendation.git
 cd movie-recommendation
-bash ```
+```bash
 
 2. **Create a virtual environment**:
 ```bash
