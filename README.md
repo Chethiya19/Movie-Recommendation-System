@@ -16,9 +16,8 @@ A **Python Flask web application** that recommends movies based on content simil
 
 ## **Installation**
 
-1. **Clone the repository**:
-
 ```bash
+Clone the repository
 git clone https://github.com/your-username/movie-recommendation.git
 cd movie-recommendation
 
