@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 Movie Recommendation System</h1>
+
+        <div class="card">
+            <form method="POST">
+                <label for="movie_name">Choose a Movie:</label>
+                <input list="movies" id="movie_name" name="movie_name" placeholder="Start typing a movie..." required>
+                <datalist id="movies">
+                    {% for movie in movies %}
+                        <option value="{{ movie }}">
+                    {% endfor %}
+                </datalist>
+                <button type="submit">Get Recommendations</button>
+            </form>
+        </div>
+
+        {% if recommended %}
+        <div class="results-card">
+            <h2>Recommended Movies:</h2>
+            <ul>
+                {% for movie in recommended %}
+                    <li>{{ movie }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore data folder (movies, ratings CSVs)
+data/
+
 # Distribution / packaging
 .Python
 build/
