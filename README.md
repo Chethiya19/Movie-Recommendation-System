@@ -44,5 +44,5 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
-#### Open this url
+#### **7. Open this url**
 http://127.0.0.1:5000/
