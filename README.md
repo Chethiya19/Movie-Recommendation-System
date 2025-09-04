@@ -46,3 +46,7 @@ python app.py
 ```
 #### **7. Open this url**
 http://127.0.0.1:5000/
+
+## **UI Desgin**
+<img width="1000" height="620" alt="image" src="https://github.com/user-attachments/assets/45cf3c67-db7d-4a61-8a6c-6c20dde516ce" />
+
