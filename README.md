@@ -16,30 +16,30 @@ A **Python Flask web application** that recommends movies based on content simil
 
 ## **Installation**
 ```bash
-# Clone the repository
+#### **1. Clone the repository**
 git clone https://github.com/your-username/movie-recommendation.git
 cd movie-recommendation
 ```
 
-### **Download Dataset** 
+### **2. Download Dataset** 
 https://www.kaggle.com/datasets/parasharmanas/movie-recommendation-system
 
-### **Create a virtual environment**
+### **3. Create a virtual environment**
 ```bash
 python -m venv venv
 ```
 
-### **Activate the virtual environment**
+### **4. Activate the virtual environment**
 ```bash
 .\venv\Scripts\activate
 ```
 
-### **Install dependencies**
+### **5. Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-### **Run the Flask application**
+### **6. Run the Flask application**
 ```bash
 python app.py
 ```
