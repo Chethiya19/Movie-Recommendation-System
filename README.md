@@ -22,27 +22,27 @@ git clone https://github.com/your-username/movie-recommendation.git
 cd movie-recommendation
 ```
 
-### **2. Download Dataset** 
+#### **2. Download Dataset** 
 https://www.kaggle.com/datasets/parasharmanas/movie-recommendation-system
 
-### **3. Create a virtual environment**
+#### **3. Create a virtual environment**
 ```bash
 python -m venv venv
 ```
 
-### **4. Activate the virtual environment**
+#### **4. Activate the virtual environment**
 ```bash
 .\venv\Scripts\activate
 ```
 
-### **5. Install dependencies**
+#### **5. Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-### **6. Run the Flask application**
+#### **6. Run the Flask application**
 ```bash
 python app.py
 ```
-
+#### Open this url
 http://127.0.0.1:5000/
